@@ -19,7 +19,7 @@ def test_invalid_portions():
 
 def test_remove_recipe():
     recipe1 = Recipe("Салат", [Ingredient("Черемша", 67, "г")])
-    recipe2 = Recipe("Торт", [Ingredient("Сгущенка", 69, "г")])
+    recipe2 = Recipe("Торт", [Ingredient("Черемша", 69, "г")])
     cart = ShoppingList()
     cart.add_recipe(recipe1, 1)
     cart.add_recipe(recipe2, 1)
