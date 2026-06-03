@@ -2,7 +2,6 @@ import pytest
 from Ingredient import Ingredient
 from Recipe import Recipe
 from ShoppingList import ShoppingList
-from DietaryRecipe import DietaryRecipe
 
 def test_add_recipe():
     recipe = Recipe("Салат", [Ingredient("черемша", 67, "г")])
