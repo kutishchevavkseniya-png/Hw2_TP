@@ -18,7 +18,7 @@ def test_add_ingredient():
 def test_ingredient_merge():
     recipe = Recipe("Салат")
     recipe.add_ingredient(Ingredient("Черемша", 67, "г"))
-    recipe.add_ingredient(Ingredient("Газан", 69, "г"))
+    recipe.add_ingredient(Ingredient("Черемша", 69, "г"))
     assert len(recipe) == 1
     assert recipe.ingredients[0].quantity == 136
 
