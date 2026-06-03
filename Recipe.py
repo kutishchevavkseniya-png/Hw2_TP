@@ -9,7 +9,7 @@ class Recipe:
             if ingr == ingredient:
                     ingr.quantity += ingredient.quantity
                     return
-            self.ingredients.append(ingredient)
+        self.ingredients.append(ingredient)
     @staticmethod
     def is_valid_ratio(ratio):
         try:
