@@ -1,8 +1,6 @@
 import pytest
 from Ingredient import Ingredient
 from Recipe import Recipe
-from ShoppingList import ShoppingList
-from DietaryRecipe import DietaryRecipe
 
 def test_recipe_create():
     ing = Ingredient("Черемша", 67, "г")
